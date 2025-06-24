@@ -1,9 +1,14 @@
+
+
+
+
 # DeepseekAI
   
 Módulo para interactuar con los modelos de DeepseekAI desde Rocketbot.  
 
 *Read this in other languages: [English](Manual_DeepseekAI.md), [Português](Manual_DeepseekAI.pr.md), [Español](Manual_DeepseekAI.es.md)*
   
+![banner](imgs/Banner_DeepseekAI.png o jpg)
 ## Como instalar este módulo
   
 Para instalar el módulo en Rocketbot Studio, se puede hacer de dos formas:
@@ -37,6 +42,7 @@ Para poder usar la API de DeepSeek, es necesario tener créditos disponibles:
 
 Una vez que tenga su clave API y créditos disponibles, puede usar el módulo de la siguiente manera:
 
+
 1. **Conectar con DeepSeek AI**:
    - Use el comando "Connect to DeepSeek AI"
    - Ingrese su clave API en el campo correspondiente
@@ -60,14 +66,14 @@ Una vez que tenga su clave API y créditos disponibles, puede usar el módulo de
 ### Recomendaciones
 
 - Mantenga su clave API segura y no la comparta
-- Monitoree su uso de créditos regularmente
+- Monitoree su uso 
+de créditos regularmente
 - Use el modelo más apropiado para su caso de uso:
   - `deepseek-chat`: Para interacciones conversacionales generales y generación de texto
   - `deepseek-reasoner`: Para tareas que requieren análisis lógico y razonamiento detallado
 - Ajuste la temperatura según necesite respuestas más precisas (0) o creativas (1)
 - El valor predeterminado de temperatura es 1.0
 - El límite predeterminado de tokens es 2048
-
 ## Descripción de los comandos
 
 ### Conectar con DeepseekAI
@@ -75,7 +81,7 @@ Una vez que tenga su clave API y créditos disponibles, puede usar el módulo de
 Establece conexión con DeepseekAI
 |Parámetros|Descripción|ejemplo|
 | --- | --- | --- |
-|API Key|Clave API de tu cuenta de DeepseekAI|sk-...|
+|API Key|Clave API de tu cuenta de DeepseekAI|sk-ant...|
 |Asignar a variable|Nombre de la variable donde se guardará la conexión|resultadoDeepseekAI|
 
 ### Obtener Modelos
@@ -92,7 +98,7 @@ Genera texto utilizando DeepseekAI
 | --- | --- | --- |
 |Prompt|Texto de entrada para generar texto|Qué es Rocketbot?|
 |Modelo|ID del modelo a utilizar|deepseek-chat|
-|Temperatura (opcional)|Controla la aleatoriedad de la generación de texto (0.0 a 1.0)|0.8|
-|Máximo de tokens (opcional)|Número máximo de tokens a generar|2048|
+|Temperatura (opcional)|Controla la aleatoriedad de la generación de texto (0.0 a 2)|0.8|
+|Máximo de tokens (opcional)|Número máximo de tokens a generar|100|
 |Secuencia de parada (opcional)|Secuencia opcional para detener la generación de texto|herramienta RPA|
 |Asignar a variable|Nombre de la variable donde se guardará el texto generado|resultadoTexto|
