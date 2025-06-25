@@ -8,7 +8,7 @@ Module to interact with DeepseekAI models from Rocketbot.
 
 *Read this in other languages: [English](Manual_DeepseekAI.md), [Português](Manual_DeepseekAI.pr.md), [Español](Manual_DeepseekAI.es.md)*
   
-![banner](imgs/Banner_DeepseekAI.png o jpg)
+![banner](imgs/Banner_DeepseekAI.jpg)
 ## How to install this module
   
 To install the module in Rocketbot Studio, it can be done in two ways:

@@ -8,7 +8,7 @@ Módulo para interagir com os modelos do DeepseekAI a partir do Rocketbot.
 
 *Read this in other languages: [English](Manual_DeepseekAI.md), [Português](Manual_DeepseekAI.pr.md), [Español](Manual_DeepseekAI.es.md)*
   
-![banner](imgs/Banner_DeepseekAI.png o jpg)
+![banner](imgs/Banner_DeepseekAI.jpg)
 ## Como instalar este módulo
   
 Para instalar o módulo no Rocketbot Studio, pode ser feito de duas formas:
